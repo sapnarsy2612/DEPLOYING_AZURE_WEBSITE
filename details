@@ -28,3 +28,8 @@ For example, if the subnet is 10.3.0.0/16, the network address is 10.3.0.0 and t
 The subnet mask "/16" means that the first two octets (16 bits) of the IP address are fixed as the network address, and the last two octets (16 bits) can range from 0 to 255 for a total of 65,536 possible IP addresses. 
 However, as mentioned earlier, two of these IP addresses are reserved for the network and broadcast addresses, leaving 65,534 usable IP addresses in the range.
 In summary, the IP address range for the subnet 10.3.0.0/16 is from 10.3.0.1 to 10.3.255.254.
+
+The IP address range for the subnet 10.3.1.0/24 would be from 10.3.1.1 to 10.3.1.254.
+The subnet mask "/24" means that the first three octets (24 bits) of the IP address are fixed as the network address, and the last octet (8 bits) can range from 0 to 255 for a total of 256 possible IP addresses. 
+However, as mentioned earlier, two of these IP addresses are reserved for the network and broadcast addresses, leaving 254 usable IP addresses in the range.
+Therefore, the IP address range for the subnet 10.3.1.0/24 is from 10.3.1.1 to 10.3.1.254.
