@@ -13,3 +13,12 @@ The Standard SKU is also designed to integrate with other Azure services, making
 The WAF SKU, on the other hand, is a more advanced offering that provides additional features like Bot protection, DDoS (Distributed Denial of Service) protection, and more granular control over WAF policies. 
 It is designed for customers who require more comprehensive protection for their web applications, particularly those with high traffic volumes or high-value assets that are attractive targets for attackers.
 In summary, the Standard SKU is a basic WAF offering, while the WAF SKU provides advanced protection and features for more complex web applications.
+
+The subnet mask "/16" represents 16 bits set to 1 and 16 bits set to 0.
+This means that the network portion of the address is the first 16 bits, and the host portion is the last 16 bits.
+To determine the number of IP addresses in the subnet 10.3.0.0/16, we need to calculate the number of possible combinations of the host portion, which is 16 bits.
+The formula to calculate the number of possible combinations is 2 to the power of the number of bits in the host portion.
+So, in this case, the number of possible combinations is 2^16, which equals 65,536.
+However, one IP address is reserved for the network address, and one IP address is reserved for the broadcast address. 
+Therefore, the actual number of usable IP addresses in the subnet is 65,534.
+Therefore, the subnet 10.3.0.0/16 contains 65,534 IP addresses.
