@@ -1,0 +1,15 @@
+Azure Application Gateway is a web traffic load balancer that enables you to manage and optimize the traffic to your web applications. 
+There are four types of SKUs for Application Gateway: Standard_v2, WAF_v2, Standard_v3, and WAF_v3.
+The Standard_v2 SKU provides basic load balancing capabilities for web traffic, including SSL/TLS termination, URL-based routing, and cookie-based session affinity. 
+It also supports autoscaling, SSL offload, and HTTP/2 protocol.
+The WAF_v2 SKU provides the same load balancing capabilities as the Standard_v2 SKU, but also includes a Web Application Firewall (WAF) that provides protection against common web vulnerabilities and attacks. 
+The WAF_v2 SKU also supports custom rules for more granular control over web traffic.
+The Standard_v3 SKU provides additional features and capabilities compared to the Standard_v2 SKU, including more granular backend health checks, better handling of websockets, improved autoscaling, and support for virtual networks with multiple subnets.
+The WAF_v3 SKU provides the same features and capabilities as the Standard_v3 SKU, but also includes a Web Application Firewall (WAF) for protection against web vulnerabilities and attacks.
+In summary, the Standard_v2 and WAF_v2 SKUs provide basic load balancing and WAF protection, while the Standard_v3 and WAF_v3 SKUs provide more advanced features and capabilities.
+Standard SKU and WAF SKU are two different types of SKUs (Stock Keeping Units) offered by Microsoft Azure for their Web Application Firewall (WAF) service.
+The Standard SKU is designed for customers who require basic protection for their web applications. It includes core WAF functionality like OWASP (Open Web Application Security Project) rulesets, protection against common web vulnerabilities, and support for custom rules.
+The Standard SKU is also designed to integrate with other Azure services, making it easy to deploy and manage.
+The WAF SKU, on the other hand, is a more advanced offering that provides additional features like Bot protection, DDoS (Distributed Denial of Service) protection, and more granular control over WAF policies. 
+It is designed for customers who require more comprehensive protection for their web applications, particularly those with high traffic volumes or high-value assets that are attractive targets for attackers.
+In summary, the Standard SKU is a basic WAF offering, while the WAF SKU provides advanced protection and features for more complex web applications.
