@@ -22,3 +22,9 @@ So, in this case, the number of possible combinations is 2^16, which equals 65,5
 However, one IP address is reserved for the network address, and one IP address is reserved for the broadcast address. 
 Therefore, the actual number of usable IP addresses in the subnet is 65,534.
 Therefore, the subnet 10.3.0.0/16 contains 65,534 IP addresses.
+
+The IP address range of a network can be determined based on the subnet mask and the network address.
+For example, if the subnet is 10.3.0.0/16, the network address is 10.3.0.0 and the range of IP addresses would be from 10.3.0.1 to 10.3.255.254, as the first and last IP addresses are reserved for the network and broadcast addresses respectively.
+The subnet mask "/16" means that the first two octets (16 bits) of the IP address are fixed as the network address, and the last two octets (16 bits) can range from 0 to 255 for a total of 65,536 possible IP addresses. 
+However, as mentioned earlier, two of these IP addresses are reserved for the network and broadcast addresses, leaving 65,534 usable IP addresses in the range.
+In summary, the IP address range for the subnet 10.3.0.0/16 is from 10.3.0.1 to 10.3.255.254.
